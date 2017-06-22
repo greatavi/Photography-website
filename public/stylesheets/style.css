@@ -1,0 +1,76 @@
+body{
+  background-color: black;
+}
+.parallexpic{
+  background-image:url(https://drscdn.500px.org/photo/189425489/q%3D80_m%3D2000_k%3D1/c74c94f6f30096ef820c99ef92ce0a3b);
+  background-size:cover;
+  height:100vh;
+  margin-right: 0px;
+  margin-left: 0px;
+  background-attachment: fixed;
+}
+.navigationbar{
+  margin-bottom:0px;
+}
+.heading{
+  top:35%;
+}
+.neon {
+  font-weight:900;
+  margin-top:20px;
+  margin-bottom:20px;
+  margin-left: 20px;
+  text-align: center ;
+  font-family: Lucida Bright;
+  color: black;
+  text-shadow: 0 0 5px white, 0 0 10px white,
+  0 0 10px white, 0 0 0px white,
+  0 0 40px white;
+}
+.about{
+  color: white;
+  font-family: font-family: AvenirNextLTPro-Regular,Arial,Helvetica;
+}
+.adjust{
+  margin-top: 100px;
+}
+.Welcome{
+  color:white;
+  text-align:center;
+  font-size: 40px;
+  font-family: AvenirNextLTPro-Regular,Arial,Helvetica;
+  letter-spacing: .3rem;
+}
+.list-items{
+  width:100%;
+}
+.list-flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+.single-image{
+  width:100%;
+}
+.img-box{
+  padding-bottom:30px;
+}
+.images{
+  min-width:100px;
+  display: none;
+}
+.footer{
+  font-family: AvenirNextLTPro-Regular,Arial,Helvetica;
+  letter-spacing: .3rem;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  color:#fff;
+  font-weight: 400;
+  padding-top:50px;
+  padding-bottom: 50px;
+  text-align:center;
+}
+.icons li a{
+  color: #008CBA;
+  text-decoration: none;
+  line-height: inherit;
+}
