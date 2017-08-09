@@ -1,38 +1,37 @@
 //
    Created by z on 6/13/17.
-extends layout
-block content
-    h1.neon Gallery
-    .container-fluid
-        .image-gallery
-            .row
-                .col-md-4.img-box
-                    a(href='#')
-                        img.single-image(src='/images/beach (1 of 1).jpg')
-                .col-md-4.img-box
-                    a(href='#')
-                        img.single-image(src='/images/beach_2 (1 of 1).jpg')
-                .col-md-4.img-box
-                    a(href='#')
-                        img.single-image(src='/images/beach_3 (1 of 1).jpg')
-            .row
-                .col-md-4.img-box
-                    a(href='#')
-                        img.single-image(src='/images/nayagara_log (1 of 1).jpg')
-                .col-md-4.img-box
-                    a(href='#')
-                        img.single-image(src='/images/san_franscisco (1 of 1).jpg')
-                .col-md-4.img-box
-                    a(href='#')
-                        img.single-image(src='/images/san_franscisco_2 (1 of 1).jpg')
-            .row
-                .col-md-4.img-box
-                    a(href='#')
-                        img.single-image(src='/images/santa_cruz1 (1 of 1).jpg')
-                .col-md-4.img-box
-                    a(href='#')
-                        img.single-image(src='/images/santa_cruz2 (1 of 1).jpg')
-                .col-md-4.img-box
-                    a(href='#')
-                        img.single-image(src='/images/snow_factory (1 of 1).jpg')
 
+block content
+    #Images.container
+        #myCarousel.carousel.slide(data-ride='carousel')
+              // Indicators
+              ol.carousel-indicators
+                li.active(data-target='#myCarousel', data-slide-to='0')
+                li(data-target='#myCarousel', data-slide-to='1')
+                li(data-target='#myCarousel', data-slide-to='2')
+                li(data-target='#myCarousel', data-slide-to='3')
+                li(data-target='#myCarousel', data-slide-to='4')
+
+              // Wrapper for slides
+              .carousel-inner
+                .item.active
+                  img(src='/images/beach_2 (1 of 1).jpg', alt='beach')
+                .item
+                  img(src='/images/beach_3 (1 of 1).jpg', alt='beach2')
+                .item
+                  img(src='/images/nayagara_log (1 of 1).jpg', alt='niagara')
+                .item
+                  img(src='/images/san_franscisco (1 of 1).jpg', alt='san franscisco')
+                .item
+                  img(src='/images/san_franscisco_2 (1 of 1).jpg', alt='sf2')
+              // Left and right controls
+              a.left.carousel-control(href='#myCarousel', data-slide='prev')
+                span.glyphicon.glyphicon-chevron-left
+                span.sr-only Previous
+              a.right.carousel-control(href='#myCarousel', data-slide='next')
+                span.glyphicon.glyphicon-chevron-right
+                span.sr-only Next
+
+        
+        
+    

@@ -9,30 +9,23 @@ body{
   margin-left: 0px;
   background-attachment: fixed;
 }
+.parallexgallery{
+  background-image:url('/images/beach (1 of 1).jpg');
+  background-size:cover;
+  height:50vh;
+  margin-right: 0px;
+  margin-left: 0px;
+  background-attachment: fixed;
+}
 .navigationbar{
   margin-bottom:0px;
 }
 .heading{
   top:35%;
 }
-.neon {
-  font-weight:900;
-  margin-top:20px;
-  margin-bottom:20px;
-  margin-left: 20px;
-  text-align: center ;
-  font-family: Lucida Bright;
-  color: black;
-  text-shadow: 0 0 5px white, 0 0 10px white,
-  0 0 10px white, 0 0 0px white,
-  0 0 40px white;
-}
 .about{
   color: white;
   font-family: font-family: AvenirNextLTPro-Regular,Arial,Helvetica;
-}
-.adjust{
-  margin-top: 100px;
 }
 .Welcome{
   color:white;
@@ -58,6 +51,22 @@ body{
   min-width:100px;
   display: none;
 }
+.text-style{
+  font-family: AvenirNextLTPro-Regular,Arial,Helvetica;
+  font-size: 18px;
+  letter-spacing: .1em;
+  color:wheat;
+  line-height:1.2;
+  text-align: center;
+}
+.gallery-text{
+  font-size:50px;
+  font-family: AvenirNextLTPro-Regular,Arial,Helvetica;
+  letter-spacing: .1em;
+  line-height: 2.0;
+  text-align: center;
+  color:wheat;
+}
 .footer{
   font-family: AvenirNextLTPro-Regular,Arial,Helvetica;
   letter-spacing: .3rem;
@@ -69,8 +78,13 @@ body{
   padding-bottom: 50px;
   text-align:center;
 }
-.icons li a{
-  color: #008CBA;
-  text-decoration: none;
-  line-height: inherit;
+.icons img{
+  width:40px;
 }
+#AboutMe{
+  margin-top: 100px;
+}
+#Images{
+  margin-top:150px;
+}
+
