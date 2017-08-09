@@ -9,23 +9,11 @@ body{
   margin-left: 0px;
   background-attachment: fixed;
 }
-.parallexgallery{
-  background-image:url('/images/beach (1 of 1).jpg');
-  background-size:cover;
-  height:50vh;
-  margin-right: 0px;
-  margin-left: 0px;
-  background-attachment: fixed;
-}
 .navigationbar{
   margin-bottom:0px;
 }
 .heading{
   top:35%;
-}
-.about{
-  color: white;
-  font-family: font-family: AvenirNextLTPro-Regular,Arial,Helvetica;
 }
 .Welcome{
   color:white;
