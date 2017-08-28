@@ -1,6 +1,9 @@
 body{
   background-color: black;
 }
+.navbar{
+  margin-bottom: 0px;
+}
 .parallexpic{
   background-image:url(https://drscdn.500px.org/photo/189425489/q%3D80_m%3D2000_k%3D1/c74c94f6f30096ef820c99ef92ce0a3b);
   background-size:cover;
@@ -69,10 +72,66 @@ body{
 .icons img{
   width:40px;
 }
+.displaypic{
+  align-content: center;
+}
 #AboutMe{
   padding-top: 150px;
 }
 #Images{
   margin-top:150px;
 }
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+  .displaypic{
+    max-width:50%;
+    margin-left:0;
+  }
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .displaypic{
+    max-width:50%;
+    margin-left:0;
+  }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  .displaypic{
+    max-width:50%;
+    margin-left:25%;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  .displaypic{
+    max-width:50%;
+    margin-left:25%;
+  }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  .displaypic{
+    max-width:100%;
+    margin-left:0;
+  }
+  .text-style{
+    font-size:30px;
+  }
+  .footer p{
+    font-size: 18px;
+  }
+  .icons img{
+    width:48px;
+  }
+}
+
+
+
+
 
